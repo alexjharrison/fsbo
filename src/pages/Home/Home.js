@@ -1,13 +1,16 @@
-import "./Home.css";
+import './Home.css';
 import React, { Component } from 'react';
 
 class Home extends Component {
-    state = {}
-    render() {
-        return (<div>
-            Home
-        </div>);
-    }
+  state = {};
+  render() {
+    return (
+      <div>
+        <div id='banner' />
+        <h1>Home</h1>
+      </div>
+    );
+  }
 }
 
 export default Home;

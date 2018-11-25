@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Montserrat:500|Open+Sans');
+
+body {
+  background-color: #ebedf3;
+  color: #555;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+li,
+ul,
+a,
+div,
+span {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

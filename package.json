@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "primeicons": "^1.0.0",
     "primereact": "^2.0.0-rc.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-responsive-carousel": "^3.1.43",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },

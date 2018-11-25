@@ -1,0 +1,13 @@
+#banner {
+  background-image: url('https://picsum.photos/800/600?random');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+@media only screen and (max-width: 800px) {
+  #banner {
+    height: 75vw;
+  }
+}
