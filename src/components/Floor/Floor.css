@@ -1,0 +1,9 @@
+.floor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.floor img {
+  width: 50%;
+  height: auto;
+}

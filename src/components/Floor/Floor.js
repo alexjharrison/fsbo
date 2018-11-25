@@ -36,18 +36,18 @@ class Floor extends Component {
   onRoomChange(e) {}
   render() {
     return (
-      <div className='floor p-grid'>
+      <div className='floor'>
         <ListBox
-          className='p-col'
           value={this.state.currentRoom}
           options={this.state.options}
           onChange={e => this.setState({ currentRoom: e.value })}
         />
-        <ul className='p-col'>
+        <ul>
           {this.state.features.map((feature, index) => (
             <li key={index}>{feature}</li>
           ))}
         </ul>
+        <img src='https://picsum.photos/800/600?random' alt='roompic' />
       </div>
     );
   }
