@@ -1,0 +1,262 @@
+{
+    "LowerLevel": [{
+            "room": "Family Room (15'6\" x 14'1\")",
+            "features": [
+                "New, engineered hardwood floors (2018)",
+                "Freshly painted (2018)",
+                "Large wall of windows (two are casement windows) offer views of the level deck and lake",
+                "New glass French door leads to the deck, lawn and lake (2018)",
+                "New LED ceiling light fixture (2018)",
+                "Opens to Bedroom #4"
+            ]
+        },
+        {
+            "room": "Lower Level Deck",
+            "features": [
+                "Entrance/exit to/from the family room",
+                "Great views of Lake Anne",
+                "Spiral stairs lead to the main level deck - great access for entertaining!",
+                "Private Setting",
+                "Storage cabinets - great for gardening supplies and boat gear"
+            ]
+        },
+        {
+            "room": "Bedroom #4 (11'6\" x 9'9\")",
+            "features": [
+                "New, engineered hardwood floors (2018)",
+                "Freshly painted (2018)",
+                "Large wall of windows (two are casement windows) offer views of the lower level deck and lake",
+                "New LED ceiling light fixture (2018)",
+                "Sliding door closet",
+                "Opens to the family room"
+            ]
+        },
+        {
+            "room": "Double-Door Hall Closet",
+            "features": [
+                "Great Shelving and storage space"
+            ]
+        },
+        {
+            "room": "Full Hall Bathroom",
+            "features": [
+                "New porcelain tile floors (2018)",
+                "Freshly painted (2018)",
+                "Vanity sink with cabinet space below",
+                "New fixtures (2018)",
+                "New, large wall mirror (2018)",
+                "New porcelain tile shower with mosaic tile accents and built-in accent shelf (2018)",
+                "New glass shower door, new fixtures and Moen showerhead and \"shower wand\" (2018)",
+                "New American Standard commode with automatic bowl cleaner (2018)",
+                "Home Netwerx light fixture, night light, exhaust fan and music with remote control (2018)"
+            ]
+        },
+        {
+            "room": "Laundry Room (11'0\" x 10'4\")",
+            "features": [
+                "Freshly painted concrete floor (2018)",
+                "Freshly painted (2018)",
+                "Great workshop space",
+                "Cabinet space",
+                "Great storage",
+                "New LG top-loading washer (2018)",
+                "New LG front-loading dryer (2018)",
+                "New utility sink with new faucet with sprayer hose (2018)"
+            ]
+        },
+        {
+            "room": "One Car Garage (21'9\" x 10'2\")",
+            "features": [
+                "Freshly painted (2018)",
+                "New garage door to patio (2012)"
+            ]
+        }
+    ],
+    "MainLevel": [{
+            "room": "Entrance Foyer",
+            "features": [
+                "New hardwood floors (2011)",
+                "New front door (2018)",
+                "Sidelight next to the front door bring natural light into the foyer",
+                "Freshly painted (2018)",
+                "New LED light fixture (2018)"
+            ]
+        },
+        {
+            "room": "Hall Coat Closet",
+            "features": [
+                "Panel with access to directional seasonal air flow control"
+            ]
+        },
+        {
+            "room": "Living Room (15'7\" x 14'2\")",
+            "features": [
+                "Hardwood floors",
+                "Freshly Painted (2018)",
+                "Large wall of windows (two are casement windows) with transom windows below offer beautiful views of Lake Anne",
+                "Opens to the dining room"
+            ]
+        },
+        {
+            "room": "Dining Room (11'6\" x 10'3\")",
+            "features": [
+                "Hardwood floors",
+                "Freshly painted (2018)",
+                "Sliding glass door with screen door opens to the main level deck and offers great lake views! (2011)",
+                "New LED light fixture (2018)",
+                "Opens to the living room and kitchen - great views of the lake!"
+            ]
+        },
+        {
+            "room": "Main Level Deck",
+            "features": [
+                "Entrance/exit to/from the dining room",
+                "Great views of Lake Anne",
+                "Spiral stairs lead to the lower level deck and the shoreline - great for entertaining!",
+                "Private Setting"
+            ]
+        },
+        {
+            "room": "Upgraded Kitchen (11'0\" x 8'4\")",
+            "features": [
+                "Hardwood floors (2011)",
+                "Freshly painted (2018)",
+                "LED recessed lighting (2011)",
+                "Silestone counters (2011)",
+                "Tumbled marble backsplash (2011)",
+                "LED undercabinet lighting (2011)",
+                "Kraftmaid cabinetry with \"soft-close\" drawers (2011)",
+                "New Samsung stainless steel, smooth-surface, self-cleaning induction oven/range (2018)",
+                "NuTone stainless steel hood fan with surface light (2018)",
+                "Samsung stainless steel side-by-side refrigerator/freezer with ice and water dispenser in the door (2011)",
+                "Sliding glass door with screen door leads to the private, front stone patio which is fully-fenced",
+                "New Kitchen Aid stainless steel dishwasher (2018)",
+                "Undermount stainless steel double sink with garbage disposal and faucet with sprayer hose (2011)",
+                "Spacious pantry closet with \"pull-out\" drawers for great extra storage",
+                "Laundry closet with Frigidaire heavy-duty stacked washer/dryer"
+            ]
+        },
+        {
+            "room": "Breakfast Room (12'0\" x 11'6\")",
+            "features": [
+                "Hardwood floors(2011)",
+                "Freshly painted (2018)",
+                "New LED ceiling light fixture (2018)",
+                "Silestone counters (2011)",
+                "Tumbled marble backsplash (2011)",
+                "LED undercabinet lighting (2011)",
+                "Kraftmaid cabinetry with \"soft-close\" drawers (2011)"
+            ]
+        },
+        {
+            "room": "Front Stone Patio (2009)",
+            "features": [
+                "Entrance/exit to/from the breakfast room and the front entrace of the home",
+                "Fully fenced",
+                "Private Setting"
+            ]
+        },
+        {
+            "room": "Powder Room",
+            "features": [
+                "Hardwood floors",
+                "Freshly painted (2018)",
+                "New vanity sink with the new Carrera marble counter and new cabinet space below (2018)",
+                "New fixtures and faucet (2018)",
+                "New mirror above the sink (2018)",
+                "New LED lighting above the mirror (2018)",
+                "New American Standard commode with automatic bowl cleaner (2018)",
+                "Home Netwerx light fixture, night light, exhaust fan and music (2018)"
+            ]
+        }
+    ],
+    "SecondLevel": [{
+            "room": "Owner's Suite - Bedroom #1 (15'6\" x 14'2\")",
+            "features": [
+                "Hardwood floors",
+                "Freshly painted (2018)",
+                "Large wall of windows (two are casement windows) offer beautiful views of Lake Anne",
+                "Glass French door leads to private balcony with amazing lake views",
+                "Hunter ceiling fan",
+                "Two large sliding door closets (one with a laundry chute to the lower level laundry room)",
+                "Updated ceiling light fixture"
+            ]
+        },
+        {
+            "room": "Owner's Suite - Private Full Bathroom",
+            "features": [
+                "Updated procelain tile floors (2015)",
+                "Freshly painted (2018)",
+                "Updated vanity sink with new fixtures and new cabinetry below (2015)",
+                "Two updated mirrored medicine cabinets above the sink (2015)",
+                "Updated light fixture above the sink (2015)",
+                "Andersen casement window overlooks the front of the home",
+                "Updated procelain tile shower (2015) with new glass shower doors (2018) features two built-in accent shelves, an oversized showerhead, separate \"shower wand\" and updated fixtures",
+                "Updated Kohler commode (2015)",
+                "Updated ceiling light fixture (2015)",
+                "Home Netwerx light fixture, night light, exhaust fan and music with remote control (2018)"
+            ]
+        },
+        {
+            "room": "Bedroom #2 (11'6\" x 9'10\")",
+            "features": [
+                "Hardwood floors",
+                "Freshly painted (2018)",
+                "Large wall of windows (two are casement windows) offer beautiful views of Lake Anne",
+                "Large sliding door closet"
+            ]
+        },
+        {
+            "room": "Full Hall Bathroom",
+            "features": [
+                "New marble tile floors (2018)",
+                "Freshly painted (2018)",
+                "Vanity sink with cabinet space below",
+                "New fixtures (2018)",
+                "New mirror above the sink (2018)",
+                "New lighting above the mirror (2018)",
+                "New American Standard commode (2018)",
+                "Shower/tub with new ceramic tile surround with new showerhead and fixtures (2018)",
+                "Home Netwerx light fixture, night light, exhaust fan and music with remote control (2018)"
+            ]
+        },
+        {
+            "room": "Hall Linen Closet",
+            "features": [
+                "Great shelving and storage space"
+            ]
+        },
+        {
+            "room": "Pull Down Stairs to Attic",
+            "features": [
+
+            ]
+        },
+        {
+            "room": "Bedroom #3 (11'7\" x 9'8\")",
+            "features": [
+                "Hardwood floors",
+                "Freshly painted (2018)",
+                "Large wall of windows (two are casement windows) offer beautiful views of the front stone patio",
+                "Large sliding door closet with shelving"
+            ]
+        }
+    ],
+    "Exterior": {
+        "features": [
+            "Waterfront home - property extends to the shoreline",
+            "One-car garage (freshly painted in 2018) and one assigned parking space - #38",
+            "New garage floor (2017)",
+            "Two large decks freshly stained (2018) feature a connecting spiral staircase and expansive lake views - plus a private balcony (freshly stained - 2018) off of the owner's suite",
+            "Exterior painted (2018)",
+            "Fully-fenced stone front patio (2009)",
+            "Professional landscaping by Looking Sharpe Landscaping Services (2018)",
+            "New roof (2018)",
+            "New covered roof from garage to front door (2011)",
+            "Gutterman gutter guards (2002)",
+            "New locks and door knobs (2011)",
+            "New exterior electrical outlets (2018)",
+            "New outside front faucet (2018)"
+        ]
+    }
+}
