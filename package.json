@@ -2,7 +2,7 @@
   "name": "fsbo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alexjharrison.github.io/fsbo",
+  "homepage": "https://restonlakehouse.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "normalize.css": "^8.0.1",
