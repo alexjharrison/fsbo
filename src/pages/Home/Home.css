@@ -4,15 +4,33 @@
   background-size: cover;
   height: 600px;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding: 20px;
-  align-items: center;
+  align-items: flex-end;
   color: white;
   font-size: 1.3em;
 }
 
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+  text-align: center;
+}
+.content-box img {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
 .layover {
-  background-color: rgba(42, 42, 253, 0.377);
+  background-color: rgba(8, 8, 8, 0.75);
   text-align: center;
   padding: 10px;
   border-radius: 20px;
@@ -20,7 +38,12 @@
 
 .headline {
   text-align: center;
-  margin: 70px auto;
+  margin: 50px auto;
+}
+
+hr {
+  max-width: 1000px;
+  margin: 30px auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -33,9 +56,8 @@
   #banner {
     height: 75vw;
     font-size: 0.5em;
-    align-items: flex-start;
   }
   .layover {
-    background-color: rgba(0, 0, 255, 0.192);
+    background-color: rgba(8, 8, 8, 0.3);
   }
 }
