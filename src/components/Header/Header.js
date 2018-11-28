@@ -10,12 +10,21 @@ class Header extends Component {
         <Link to='/' id='logo'>
           <h1>Reston Lake House</h1>
         </Link>
-        <nav id='navbar'>
-          <Link to='/tour'>Walkthrough</Link>
-          <Link to='/neighborhood'>Neighborhood</Link>
-          <Link to='/reston'>Reston</Link>
-          <Link to='/contact'>Contact</Link>
-        </nav>
+        <div className='header-right'>
+          <nav id='navbar'>
+            <Link to='/tour'>Walkthrough</Link>
+            <Link to='/neighborhood'>Neighborhood</Link>
+            <Link to='/reston'>Reston</Link>
+            <Link to='/contact' id='contact-link'>
+              Contact
+            </Link>
+          </nav>
+          <div className='under-header'>
+            <p>
+              FSBO: Joan Harrison: <strong>(571) 449-7136</strong>
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

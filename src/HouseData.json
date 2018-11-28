@@ -1,5 +1,6 @@
 {
-  "LowerLevel": [{
+  "LowerLevel": [
+    {
       "room": "Family Room",
       "features": [
         "New, engineered hardwood floors",
@@ -8,7 +9,6 @@
         "New LED ceiling light",
         "Verizon and Comcast internet/cable connection available",
         "Double doors leading to fourth bedroom"
-
       ]
     },
 
@@ -57,7 +57,8 @@
       ]
     }
   ],
-  "MainLevel": [{
+  "MainLevel": [
+    {
       "room": "Entrance Foyer",
       "features": [
         "Hardwood floors",
@@ -112,9 +113,9 @@
         "Sliding glass door with screen leading to a fully fenced, flagstone patio with multiple gardens"
       ]
     }
-
   ],
-  "SecondLevel": [{
+  "SecondLevel": [
+    {
       "room": "Master Bedroom",
       "features": [
         "Hardwood floors",
@@ -134,7 +135,6 @@
         "Updated walk-in shower with porcelain tile and new clear sliding shower doors box insets in shower with hand wand and fixtures all in brushed nickel",
         "Home NetWerk light/night light/fan and bluetooth speaker with remote  control to enhance your experience",
         "New Kohler commode"
-
       ]
     },
     {
@@ -173,7 +173,8 @@
       ]
     }
   ],
-  "Exterior": [{
+  "Exterior": [
+    {
       "room": "Exterior",
       "features": [
         "Waterfront home - property extends to the shoreline",
