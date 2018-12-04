@@ -13,6 +13,13 @@ class App extends Component {
     return (
       <div className='App'>
         <Header />
+        <Route path="/" render={({location}) => {
+          if (typeof window.ga === 'function') {
+            window.ga('set', 'page', location.pathname + location.search);
+            window.ga('send', 'pageview');
+          }
+          return null;
+        }} />
         <Switch>
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/neighborhood' component={Neighborhood} />
