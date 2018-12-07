@@ -32,7 +32,7 @@ class Contact extends Component {
     render() {
         return (
         <div>
-            <h1>this is less newer updated header</h1>
+            <h1>this is the best updated header</h1>
             <form id="contact-form" onSubmit={this.handleSubmit}>
                 <label htmlFor="name">Name</label>
                 <br/>
