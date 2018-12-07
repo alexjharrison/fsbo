@@ -32,6 +32,7 @@ class Contact extends Component {
     render() {
         return (
         <div>
+            <h1>this is new updated header</h1>
             <form id="contact-form" onSubmit={this.handleSubmit}>
                 <label htmlFor="name">Name</label>
                 <br/>
