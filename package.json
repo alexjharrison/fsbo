@@ -1,34 +1,23 @@
 {
   "name": "fsbo",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://restonlakehouse.com",
-  "dependencies": {
-    "gh-pages": "^2.0.1",
-    "normalize.css": "^8.0.1",
-    "primeicons": "^1.0.0",
-    "primereact": "^2.0.0-rc.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-responsive-carousel": "^3.1.43",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
-  },
+  "version": "1.0.0",
+  "description": "This is the in process version of RestonLakeHouse.com",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjharrison/fsbo.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "alex harrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjharrison/fsbo/issues"
+  },
+  "homepage": "https://github.com/alexjharrison/fsbo#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
