@@ -21,7 +21,7 @@ class Header extends Component {
           </nav>
           <div className='under-header'>
             <p>
-              FSBO: Joan Harrison: <strong>(571) 449-7136</strong>
+              Coming Soon: FSBO - Joan Harrison: <strong>(571) 449-7136</strong>
             </p>
           </div>
         </div>
