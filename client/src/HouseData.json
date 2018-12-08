@@ -9,6 +9,13 @@
         "New LED ceiling light",
         "Verizon and Comcast internet/cable connection available",
         "Double doors leading to fourth bedroom"
+      ],
+      "images": [
+        "rec rm 2.jpg",
+        "rec rm 3.jpg",
+        "rec rm 4.jpg",
+        "rec rm.jpg",
+        "view basement rec rm.jpg"
       ]
     },
 
@@ -19,11 +26,21 @@
         "Large wall of Slocomb windows overlooking the lake",
         "New LED ceiling light",
         "Large sliding door closet"
+      ],
+      "images": [
+        "basement bd 5.jpg",
+        "basement bdrm 3.jpg",
+        "basement bdrm.jpg",
+        "basement bed 6.jpg",
+        "basement bedrm 2.jpg",
+        "basement bedrm 4.jpg",
+        "bsment bdrm 4.jpg"
       ]
     },
     {
       "room": "Double-Door Hall Closet",
-      "features": ["Multiple shelves for lots of storage"]
+      "features": ["Multiple shelves for lots of storage"],
+      "images": []
     },
     {
       "room": "Full Hall Bathroom",
@@ -35,6 +52,13 @@
         "New LED above mirror lighting",
         "New American Standard commode with self-cleaning bowl",
         "Home NetWerx light / night light / exhaust fan with bluetooth speaker and remote control"
+      ],
+      "images": [
+        "basement bath 3.jpg",
+        "basement bath shower.jpg",
+        "basement bath.jpg",
+        "bsmnt bath 2.jpg",
+        "closet before basement bath.jpg"
       ]
     },
     {
@@ -45,16 +69,8 @@
         "New utility sink with faucet and sprayer",
         "Cabinet filled with wall and ceiling paint carefully labeled for each room",
         "Plenty of room for a small workshop"
-      ]
-    },
-    {
-      "room": "One Car Garage",
-      "features": [
-        "2 electric garage door openers",
-        "New concrete garage floor painted with garage floor paint",
-        "Overhead roof leading from garage to front door",
-        "Flagstone patio with small garden leading from front door to garage"
-      ]
+      ],
+      "images": ["laundry rm.jpg", "other side laundry rm.jpg"]
     }
   ],
   "MainLevel": [
@@ -65,6 +81,14 @@
         "New steel front door",
         "Closet with new swing-out doors as well as a panel with access to a directional change of airflow to accommodate heating and A/C preferences",
         "New LED overhead fixture"
+      ],
+      "images": [
+        "famous said stairs.jpg",
+        "foyer again.jpg",
+        "foyer from stairs.jpg",
+        "Hall closet foyer.jpg",
+        "hallway light down steps from master bedrm.jpg",
+        "staires up from foyer.jpg"
       ]
     },
     {
@@ -76,7 +100,8 @@
         "New large mirror above the sink",
         "New American Standard commode with self-cleaning bowl feature",
         "New Home NetWerx LED overhead lighting / night light / exhaust fan with bluetooth speaker to play your tunes"
-      ]
+      ],
+      "images": []
     },
     {
       "room": "Living Room",
@@ -84,6 +109,20 @@
         "Hardwood floors",
         "Wall of Slocomb windows overlooking beautiful lake views",
         "Extends directly to the dining room"
+      ],
+      "images": [
+        "another view lvg rm.jpg",
+        "living and dining rm.jpg",
+        "living rm 1.jpg",
+        "living rm from stairs.jpg",
+        "living rm to dining rm.jpg",
+        "living rm.jpg",
+        "LR again.jpg",
+        "LR sofa.jpg",
+        "LR yet again.jpg",
+        "lving rm 2.jpg",
+        "lving rm more.jpg",
+        "lving rm.jpg"
       ]
     },
     {
@@ -92,10 +131,19 @@
         "Hardwood floors",
         "Sliding glass door with screen leading to the main level deck with access to lower deck",
         "Dimmable new light fixture above table"
+      ],
+      "images": [
+        "dining rm 1.jpg",
+        "dining rm 2.jpg",
+        "dining rm 3.jpg",
+        "dining rm more.jpg",
+        "dining rm other.jpg",
+        "dining to kitchen.jpg",
+        "dining to kitchen.jpg"
       ]
     },
     {
-      "room": "Spacious Kitchen with Breakfast Nook",
+      "room": "Kitchen with Breakfast Nook",
       "features": [
         "Hardwood floors",
         "All stainless-steel appliances",
@@ -111,6 +159,27 @@
         "Silestone counter space galore",
         "Dimmable under-cabinet LED lighting",
         "Sliding glass door with screen leading to a fully fenced, flagstone patio with multiple gardens"
+      ],
+      "images": [
+        "kitchen 1.jpg",
+        "kitchen 2.jpg",
+        "kitchen 3.jpg",
+        "kitchen 4.jpg",
+        "kitchen 6.jpg",
+        "kitchen 7.jpg",
+        "kitchen 8.jpg",
+        "kitchen 10.jpg",
+        "kitchen 12.jpg",
+        "kitchen 13.jpg",
+        "kitchen 14.jpg",
+        "kitchen 15.jpg",
+        "kitchen 16.jpg",
+        "kitchen 17.jpg",
+        "kitchen 18.jpg",
+        "kitchen 19.jpg",
+        "kitchen 21.jpg",
+        "kitchen 23.jpg",
+        "kitchen 24.jpg"
       ]
     }
   ],
@@ -123,6 +192,17 @@
         "Glass French door leading to a private balcony",
         "Two large sliding-door closets, one with laundry chute leading directly to basement laundry room",
         "New ceiling fan"
+      ],
+      "images": [
+        "master bdrm again.jpg",
+        "master bdrm.jpg",
+        "master bdrm2.jpg",
+        "master bed other view.jpg",
+        "master closet again.jpg",
+        "master closet.jpg",
+        "master closets.jpg",
+        "other view master.jpg",
+        "still master.jpg"
       ]
     },
     {
@@ -135,6 +215,21 @@
         "Updated walk-in shower with porcelain tile and new clear sliding shower doors box insets in shower with hand wand and fixtures all in brushed nickel",
         "Home NetWerk light/night light/fan and bluetooth speaker with remote  control to enhance your experience",
         "New Kohler commode"
+      ],
+      "images": [
+        "master bath 1.jpg",
+        "master bath 2.jpg",
+        "master bath 3.jpg",
+        "master bath 4.jpg",
+        "Master B 3.jpg",
+        "Master b 4.jpg",
+        "master b 5.jpg",
+        "master b 6.jpg",
+        "master b 8.jpg",
+        "master bath more.jpg",
+        "master bath other.jpg",
+        "MB2.jpg",
+        "still MB.jpg"
       ]
     },
     {
@@ -143,6 +238,14 @@
         "Hardwood floors",
         "Large Slocomb windows with sweeping lake view",
         "Large sliding-door closet"
+      ],
+      "images": [
+        "2nd bdrm again.jpg",
+        "2nd bdrm yet again.jpg",
+        "2nd br again.jpg",
+        "2nd BR view.jpg",
+        "2nd BR with closet.jpg",
+        "view 2nd bedrm.jpg"
       ]
     },
     {
@@ -152,6 +255,16 @@
         "Freshly painted (2018)",
         "Large Slocomb windows overlooking fenced, flagstone patio",
         "Large sliding-door closet"
+      ],
+      "images": [
+        "3rd Bdrm more.jpg",
+        "3rd bdrm with closet.jpg",
+        "3rd bdrm yet again.jpg",
+        "3rd BDrm.jpg",
+        "3rd bedrm.jpg",
+        "3rd BR.jpg",
+        "from 3rd Bdrm.jpg",
+        "view 3rd bdrm.jpg"
       ]
     },
     {
@@ -163,6 +276,15 @@
         "New American Standard commode",
         "Updated ceramic bath tile with tub and all new brushed nickel fixtures",
         "Home NetWerx light/night light/fan and bluetooth speaker with remote control to enjoy your favorite music"
+      ],
+      "images": [
+        "hall bath 1.jpg",
+        "hall bath 2.jpg",
+        "hall bath 3.jpg",
+        "hall bath adnaus....jpg",
+        "hall bath again.jpg",
+        "hall bath too much.jpg",
+        "hall bath yet again.jpg"
       ]
     },
     {
@@ -170,6 +292,20 @@
       "features": [
         "Hall closet with great shelving and storage space",
         "Pull down stairway with access to attic A/C unit"
+      ],
+      "images": [
+        "almost gone.jpg",
+        "and again LR.jpg",
+        "courtyard 2.jpg",
+        "courtyard again.jpg",
+        "front court yard.jpg",
+        "new stone path to lake.jpg",
+        "other view master.jpg",
+        "path and patio 2.jpg",
+        "patio step.jpg",
+        "patio with friends.jpg",
+        "patio.jpg",
+        "roof over front door.jpg"
       ]
     }
   ],
@@ -188,6 +324,20 @@
         "New locks and door knobs",
         "New exterior electrical outlets",
         "New outside front faucet"
+      ],
+      "images": [
+        "almost gone.jpg",
+        "and again LR.jpg",
+        "courtyard 2.jpg",
+        "courtyard again.jpg",
+        "front court yard.jpg",
+        "new stone path to lake.jpg",
+        "other view master.jpg",
+        "path and patio 2.jpg",
+        "patio step.jpg",
+        "patio with friends.jpg",
+        "patio.jpg",
+        "roof over front door.jpg"
       ]
     },
     {
@@ -196,7 +346,31 @@
         "Waterfront home - property extends to the shoreline",
         "Fully-fenced stone front patio",
         "Professional landscaping by Post Home and Garden"
+      ],
+      "images": [
+        "almost gone.jpg",
+        "and again LR.jpg",
+        "courtyard 2.jpg",
+        "courtyard again.jpg",
+        "front court yard.jpg",
+        "new stone path to lake.jpg",
+        "other view master.jpg",
+        "path and patio 2.jpg",
+        "patio step.jpg",
+        "patio with friends.jpg",
+        "patio.jpg",
+        "roof over front door.jpg"
       ]
+    },
+    {
+      "room": "One Car Garage",
+      "features": [
+        "2 electric garage door openers",
+        "New concrete garage floor painted with garage floor paint",
+        "Overhead roof leading from garage to front door",
+        "Flagstone patio with small garden leading from front door to garage"
+      ],
+      "images": []
     },
     {
       "room": "Main Level Deck",
@@ -205,6 +379,12 @@
         "Great views of Lake Anne",
         "Spiral stairs lead to the main level deck - great access for entertaining!",
         "Private Setting"
+      ],
+      "images": [
+        "view dining rm.jpg",
+        "dining rm 1.jpg",
+        "LR again.jpg",
+        "master deck view2.jpg"
       ]
     },
     {
@@ -215,7 +395,8 @@
         "Spiral stairs lead to the main level deck - great access for entertaining!",
         "Private Setting",
         "Storage cabinets - great for gardening supplies and boat gear"
-      ]
+      ],
+      "images": ["view from bsmt bedrm.jpg", "bsment bdrm 4.jpg"]
     }
   ]
 }

@@ -1,13 +1,17 @@
 import './Home.css';
 import React, { Component } from 'react';
-import bgImage from '../../assets/images/banner.png';
 
 class Home extends Component {
   state = {};
   render() {
     return (
       <div id='home'>
-        <div id='banner' style={{ backgroundImage: `url("${bgImage}")` }}>
+        <div
+          id='banner'
+          style={{
+            backgroundImage: `url("/carousel/full/view from bsmt bedrm.jpg")`
+          }}
+        >
           <div className='layover'>
             <h1>1638 Waters Edge Ln</h1>
             <h1>Reston, VA</h1>

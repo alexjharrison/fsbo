@@ -3,11 +3,26 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.floor img {
-  width: 50%;
-  height: auto;
+.image-gallery {
+  width: 600px;
 }
 .floor li {
   line-height: 1.5;
   font-size: 15px;
 }
+#features {
+  min-width: 400px;
+
+  margin: 5px;
+}
+
+/* .left .p-listbox .p-listbox-list-wrapper {
+ 
+  width: 80vw;
+}
+
+.left .p-listbox .p-listbox-list {
+  display: flex;
+  justify-content: center;
+  border: none;
+} */

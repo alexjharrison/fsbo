@@ -1,7 +1,9 @@
 import './Floor.css';
 import React, { Component } from 'react';
-import { ListBox } from 'primereact/listbox';
+import ListBox from '../Listbox/ListBox';
 import HouseData from '../../HouseData.json';
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/scss/image-gallery.scss';
 
 class Floor extends Component {
   state = {
@@ -12,7 +14,8 @@ class Floor extends Component {
         value: floor.room
       };
     }),
-    features: []
+    features: [],
+    images: []
   };
   componentDidMount() {
     this.setState({
@@ -26,29 +29,59 @@ class Floor extends Component {
     if (!floor.filter(roomInfo => roomInfo.room === newRoom)[0]) {
       return;
     }
-    let newFeatures = floor.filter(roomInfo => roomInfo.room === newRoom)[0]
-      .features;
+    let roomInfo = floor.filter(roomInfo => roomInfo.room === newRoom)[0];
+    let newFeatures = roomInfo.features;
+    let photos = roomInfo.images.map(imageName => {
+      return {
+        original: `/carousel/full/${imageName}`,
+        thumbnail: `/carousel/thumb/${imageName}`
+      };
+    });
 
     if (oldFeatures !== newFeatures) {
-      this.setState({ features: newFeatures });
+      this.setState({
+        features: newFeatures,
+        images: photos
+      });
     }
+    console.log(this.state.images);
   }
-  onRoomChange(e) {}
+  importImages(r) {
+    let images = {};
+    r.keys.map((item, index) => {
+      images[item.replace('./', '')] = r(item);
+      return null;
+    });
+    return images;
+  }
   render() {
     return (
-      <div className='floor'>
+      <React.Fragment>
         <ListBox
           value={this.state.currentRoom}
           options={this.state.options}
-          onChange={e => this.setState({ currentRoom: e.value })}
+          onChange={value => this.setState({ currentRoom: value })}
         />
-        <ul>
-          {this.state.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
-        <img src='https://picsum.photos/800/600?random' alt='roompic' />
-      </div>
+        <div className='floor'>
+          <div>
+            <h1 style={{ textAlign: 'center' }}>{this.state.currentRoom}</h1>
+            <ul id='features'>
+              {this.state.features.map((feature, index) => (
+                <li key={index}>{feature}</li>
+              ))}
+            </ul>
+          </div>
+          <div className='image-gallery'>
+            <ImageGallery
+              items={this.state.images}
+              autoPlay={true}
+              slideDuration={1200}
+              slideInterval={3500}
+              thumbnailPosition={'top'}
+            />
+          </div>
+        </div>
+      </React.Fragment>
     );
   }
 }
