@@ -8,7 +8,7 @@ class Tour extends Component {
   render() {
     return (
       <div id='tour'>
-        <h1>Tour</h1>
+        <h1>House Walkthrough</h1>
         <TabView>
           <TabPanel header='Main Level'>
             <Floor floor={'MainLevel'} />

@@ -31,10 +31,12 @@ const ListBox = ({ value, options, onChange }) => {
 const style = {
   container: {
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    margin: '20px 5px 30px 5px'
   },
   button: {
-    margin: '20px 5px 30px 5px'
+    margin: '5px'
   }
 };
 

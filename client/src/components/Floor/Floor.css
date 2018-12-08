@@ -1,19 +1,20 @@
 .floor {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 .image-gallery {
-  width: 600px;
+  width: 700px;
 }
 .floor li {
   line-height: 1.5;
   font-size: 15px;
 }
 #features {
-  min-width: 400px;
-
-  margin: 5px;
+  width: 500px;
+  margin: 5px 5px 100px 5px;
 }
 
 /* .left .p-listbox .p-listbox-list-wrapper {
@@ -26,3 +27,9 @@
   justify-content: center;
   border: none;
 } */
+
+@media only screen and (max-width: 1275px) {
+  .image-gallery {
+    width: 400px;
+  }
+}

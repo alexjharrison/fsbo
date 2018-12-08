@@ -1,3 +1,10 @@
 .p-tabview-title {
   font-size: 16px;
 }
+#tour {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+#tour h1 {
+  margin: 20px;
+}
