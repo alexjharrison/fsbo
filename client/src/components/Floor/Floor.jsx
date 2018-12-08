@@ -77,7 +77,6 @@ class Floor extends Component {
               autoPlay={true}
               slideDuration={1200}
               slideInterval={3500}
-              thumbnailPosition={'top'}
             />
           </div>
         </div>

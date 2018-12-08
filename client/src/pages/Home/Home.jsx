@@ -1,5 +1,7 @@
 import './Home.css';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from 'primereact/button';
 
 class Home extends Component {
   state = {};
@@ -28,20 +30,34 @@ class Home extends Component {
         <hr />
         <div className='main-content'>
           <div className='content-box'>
-            <img src='https://picsum.photos/500/400/?random' alt='random-img' />
-            <h1>4 Bed 3.5 Bath Property</h1>
+            <img src='/carousel/full/kitchen 17.jpg' alt='kitchen' />
+            <div className='content-text'>
+              <h1>4 Bed 3.5 Bath Property</h1>
+              <Link to='/tour'>
+                <Button
+                  className='p-button-raised p-button-rounded'
+                  label='Take a Virtual Walkthough'
+                />
+              </Link>
+            </div>
+          </div>
+          <div className='content-box rev'>
+            <div className='content-text'>
+              <h1>Beautiful Lake Views From Living & Dining Rooms</h1>
+            </div>
+            <img src='/carousel/full/dining rm 1.jpg' alt='dining room' />
           </div>
           <div className='content-box'>
-            <h1>Beautiful Lake Views From Living & Dining Rooms</h1>
-            <img src='https://picsum.photos/500/400/?random' alt='random-img' />
+            <img src='/carousel/full/patio lake view.jpg' alt='patio' />
+            <div className='content-text'>
+              <h1>Stone Walkway to Dock on the Water</h1>
+            </div>
           </div>
-          <div className='content-box'>
-            <img src='https://picsum.photos/500/400/?random' alt='random-img' />
-            <h1>Second Story Deck</h1>
-          </div>
-          <div className='content-box'>
-            <h1>Located in Northern VA's Most Attractive Communities</h1>
-            <img src='https://picsum.photos/500/400/?random' alt='random-img' />
+          <div className='content-box rev'>
+            <div className='content-text'>
+              <h1>Located in Northern VA's Most Attractive Community</h1>
+            </div>
+            <img src='/carousel/full/lake anne 1.jpg' alt='reston' />
           </div>
         </div>
       </div>
