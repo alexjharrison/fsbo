@@ -52,7 +52,9 @@ class Header extends Component {
             <Link to='/tour'>Walkthrough</Link>
             <Link to='/neighborhood'>Neighborhood</Link>
             <Link to='/details'>Details</Link>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/contact' id='contact-link'>
+              Contact
+            </Link>
           </nav>
           <div className='under-header'>
             <p>

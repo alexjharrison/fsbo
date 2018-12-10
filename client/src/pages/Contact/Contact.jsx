@@ -5,6 +5,7 @@ import { InputMask } from 'primereact/inputmask';
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import axios from 'axios';
+import { GMap } from 'primereact/gmap';
 
 class Contact extends Component {
   state = {
@@ -21,12 +22,9 @@ class Contact extends Component {
     e.preventDefault();
     // alert("clicked");
     axios
-      .post('https://mailthis.to/restonlakehouse', {
-        ...this.state,
-        _honeypot: ''
-      })
+      .post('/submit-inquiry', this.state)
       .then(res => {
-        window.location.href = 'https://mailthis.to/confirm';
+        console.log(res);
       })
       .catch(err => {
         console.log(err);
@@ -34,8 +32,39 @@ class Contact extends Component {
   };
   render() {
     return (
-      <div>
-        <h1>this is the even more best best updated header</h1>
+      <div id='contact'>
+        <div className='contact-box'>
+          <h1>Contact Me</h1>
+          <p>If you would like a tour or have further questions</p>
+        </div>
+        <div className='contact-info'>
+          <GMap
+            id='gmap'
+            options={{ center: { lat: 38.966111, lng: -77.337007 }, zoom: 15 }}
+            overlays={[
+              new window.google.maps.Marker({
+                position: { lat: 38.966111, lng: -77.337007 },
+                title: 'Reston Lake House'
+              })
+            ]}
+            style={{
+              width: '60%',
+              minHeight: '320px'
+            }}
+          />
+          <div className='contact-deets'>
+            <h2>1638 Waters Edge Lane</h2>
+            <h2>Reston, VA 20191</h2>
+            <p>Contact: Joan Harrison</p>
+            <p>(571) 449-7136</p>
+            <p>
+              <a href='mailto:restonlakehouse@gmail.com'>
+                RestonLakeHouse@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+        <h2 className='submit-inquiry'>Submit an Inquiry</h2>
         <form id='contact-form' onSubmit={this.handleSubmit}>
           <label htmlFor='name'>Name</label>
           <br />

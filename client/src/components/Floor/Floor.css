@@ -28,12 +28,7 @@
   border: none;
 } */
 
-@media only screen and (max-width: 1275px) {
-  .image-gallery {
-    width: 400px;
-  }
-}
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
   .image-gallery {
     width: 100%;
   }
