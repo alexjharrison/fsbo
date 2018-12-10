@@ -36,7 +36,6 @@ app.post('/submit-inquiry', (req, res) => {
     if (err) console.log(err);
     else console.log('Email sent: ' + info.response);
   });
-  console.log(req.body);
   res.send('blah');
 });
 
@@ -45,5 +44,5 @@ app.get('*', (req, res) => {
 });
 
 var server = app.listen(3000, function() {
-  console.log('server running');
+  console.log('server running on port 3000');
 });

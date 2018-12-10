@@ -16,18 +16,26 @@ class Contact extends Component {
   };
   handleChange = e => {
     this.setState({ [e.target.id]: e.target.value });
-    console.log(this.state);
   };
   handleSubmit = e => {
     e.preventDefault();
-    // alert("clicked");
+    let message = document.getElementById('message-sent');
     axios
       .post('/submit-inquiry', this.state)
       .then(res => {
-        console.log(res);
+        message.innerHTML = 'Message Sent Successfully';
+        message.setAttribute('style', 'opacity: 1;');
+        setTimeout(() => {
+          message.setAttribute('style', 'opacity: 0;');
+        }, 5000);
+        this.setState({ name: '', phone: '', query: '', email: '' });
       })
       .catch(err => {
-        console.log(err);
+        message.innerHTML = 'Message Not Sent';
+        message.setAttribute('style', 'opacity: 1;');
+        setTimeout(() => {
+          message.setAttribute('style', 'opacity: 0;');
+        }, 5000);
       });
   };
   render() {
@@ -64,6 +72,7 @@ class Contact extends Component {
             </p>
           </div>
         </div>
+        <span id='message-sent' />
         <h2 className='submit-inquiry'>Submit an Inquiry</h2>
         <form id='contact-form' onSubmit={this.handleSubmit}>
           <label htmlFor='name'>Name</label>

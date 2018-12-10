@@ -10,7 +10,6 @@ class Header extends Component {
     page: window.location.pathname
   };
   render() {
-    console.log(this.state.page);
     return (
       <div id='header' className='p-grid p-justify-end'>
         <Sidebar
