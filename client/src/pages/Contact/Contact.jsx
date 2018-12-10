@@ -23,18 +23,18 @@ class Contact extends Component {
     axios
       .post('/submit-inquiry', this.state)
       .then(res => {
-        message.innerHTML = 'Message Sent Successfully';
-        message.setAttribute('style', 'opacity: 1;');
+        message.innerHTML = 'Message Sent';
+        message.setAttribute('style', 'top: calc(50% - 80px);');
         setTimeout(() => {
-          message.setAttribute('style', 'opacity: 0;');
+          message.setAttribute('style', 'top: -100px;');
         }, 5000);
         this.setState({ name: '', phone: '', query: '', email: '' });
       })
       .catch(err => {
         message.innerHTML = 'Message Not Sent';
-        message.setAttribute('style', 'opacity: 1;');
+        message.setAttribute('style', 'top: calc(50% - 80px);');
         setTimeout(() => {
-          message.setAttribute('style', 'opacity: 0;');
+          message.setAttribute('style', 'top: -100px;');
         }, 5000);
       });
   };
@@ -72,7 +72,7 @@ class Contact extends Component {
             </p>
           </div>
         </div>
-        <span id='message-sent' />
+        <span id='message-sent'>Message Sent</span>
         <h2 className='submit-inquiry'>Submit an Inquiry</h2>
         <form id='contact-form' onSubmit={this.handleSubmit}>
           <label htmlFor='name'>Name</label>
