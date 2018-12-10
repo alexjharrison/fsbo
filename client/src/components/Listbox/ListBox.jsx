@@ -4,7 +4,7 @@ import './ListBox.css';
 
 const ListBox = ({ value, options, onChange }) => {
   return (
-    <div className='listbox' style={style.container}>
+    <div className='listbox'>
       {options.map((option, index) => {
         return (
           <React.Fragment key={index}>
@@ -29,12 +29,6 @@ const ListBox = ({ value, options, onChange }) => {
 };
 
 const style = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    flexWrap: 'wrap',
-    margin: '20px 5px 30px 5px'
-  },
   button: {
     margin: '5px'
   }

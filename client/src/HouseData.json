@@ -106,7 +106,12 @@
         "New American Standard commode with self-cleaning bowl feature",
         "New Home NetWerx LED overhead lighting / night light / exhaust fan"
       ],
-      "images": ["foyer bath.jpg"]
+      "images": [
+        "foyer bath.jpg",
+        "Foyerbath 4.jpg",
+        "Foyerbath 2.jpg",
+        "Foyerbath 4.jpg"
+      ]
     },
     {
       "room": "Living Room",
@@ -290,27 +295,6 @@
         "hall bath again.jpg",
         "hall bath too much.jpg",
         "hall bath yet again.jpg"
-      ]
-    },
-    {
-      "room": "Extras",
-      "features": [
-        "Hall closet with great shelving and storage space",
-        "Pull down stairway with access to attic A/C unit"
-      ],
-      "images": [
-        "almost gone.jpg",
-        "and again LR.jpg",
-        "courtyard 2.jpg",
-        "courtyard again.jpg",
-        "front court yard.jpg",
-        "new stone path to lake.jpg",
-        "other view master.jpg",
-        "path and patio 2.jpg",
-        "patio step.jpg",
-        "patio with friends.jpg",
-        "patio.jpg",
-        "roof over front door.jpg"
       ]
     }
   ],

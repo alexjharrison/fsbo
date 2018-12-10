@@ -33,3 +33,11 @@
     width: 400px;
   }
 }
+@media only screen and (max-width: 650px) {
+  .image-gallery {
+    width: 100%;
+  }
+  #features {
+    width: 95vw;
+  }
+}

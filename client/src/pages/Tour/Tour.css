@@ -8,3 +8,20 @@
 #tour h1 {
   margin: 20px;
 }
+@media only screen and (max-width: 650px) {
+  .p-tabview-title {
+    font-size: 14px;
+  }
+  #pr_id_2_header_0 {
+    padding: 5px;
+  }
+  #pr_id_2_header_1 {
+    padding: 5px;
+  }
+  #pr_id_2_header_2 {
+    padding: 5px;
+  }
+  #pr_id_2_header_3 {
+    padding: 5px;
+  }
+}

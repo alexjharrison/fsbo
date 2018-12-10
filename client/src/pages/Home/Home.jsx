@@ -44,6 +44,12 @@ class Home extends Component {
           <div className='content-box rev'>
             <div className='content-text'>
               <h1>Beautiful Lake Views From Living & Dining Rooms</h1>
+              <Link to='/tour'>
+                <Button
+                  className='p-button-raised p-button-rounded'
+                  label='See the Lake Views'
+                />
+              </Link>
             </div>
             <img src='/carousel/full/dining rm 1.jpg' alt='dining room' />
           </div>
@@ -51,11 +57,23 @@ class Home extends Component {
             <img src='/carousel/full/patio lake view.jpg' alt='patio' />
             <div className='content-text'>
               <h1>Stone Walkway to Dock on the Water</h1>
+              <Link to='/tour'>
+                <Button
+                  className='p-button-raised p-button-rounded'
+                  label='Walk Around the Property'
+                />
+              </Link>
             </div>
           </div>
           <div className='content-box rev'>
             <div className='content-text'>
               <h1>Located in Northern VA's Most Attractive Community</h1>
+              <Link to='/neighborhood'>
+                <Button
+                  className='p-button-raised p-button-rounded'
+                  label='Explore Lake Anne & Reston'
+                />
+              </Link>
             </div>
             <img src='/carousel/full/lake anne 1.jpg' alt='reston' />
           </div>
