@@ -80,37 +80,43 @@
   ],
   "MainLevel": [
     {
-      "room": "Entrance Foyer",
+      "room": "Kitchen with Breakfast Nook",
       "features": [
         "Hardwood floors",
-        "New steel front door",
-        "Closet with new swing-out doors as well as a panel with access to a directional change of airflow to accommodate heating and A/C preferences",
-        "New LED overhead fixture"
+        "All stainless-steel appliances",
+        "Tumbled marble backsplash with mosaic tile inset",
+        "Kraftmade cabinets with 'soft close' drawers",
+        "Samsung side by side refrigerator with ice and water dispenser on the door",
+        "Providing a new  dual steam/cook/convection Samsung oven as well as a new Samsung induction oven/range both self-cleaning",
+        "New NuTone hood fan with multiple speeds and dimmable lighting",
+        "A double sink as well as a bar sink both with garbage disposals",
+        "New Kitchen Aid dishwasher with self-cleaning filter",
+        "A new Kitchen Aid built-in microwave",
+        "Seating at the peninsula",
+        "Silestone counter space galore",
+        "Dimmable under-cabinet LED lighting",
+        "Sliding glass door with screen leading to a fully fenced, flagstone patio with multiple gardens"
       ],
       "images": [
-        "famous said stairs.jpg",
-        "foyer again.jpg",
-        "foyer from stairs.jpg",
-        "Hall closet foyer.jpg",
-        "hallway light down steps from master bedrm.jpg",
-        "staires up from foyer.jpg"
-      ]
-    },
-    {
-      "room": "Foyer Half Bath",
-      "features": [
-        "Hardwood floors",
-        "New vanity sink with Carrera marble counter and cabinet with dovetail jointed drawers",
-        "New brushed nickel fixtures and faucet",
-        "New large mirror above the sink",
-        "New American Standard commode with self-cleaning bowl feature",
-        "New Home NetWerx LED overhead lighting / night light / exhaust fan"
-      ],
-      "images": [
-        "foyer bath.jpg",
-        "Foyerbath 4.jpg",
-        "Foyerbath 2.jpg",
-        "Foyerbath 4.jpg"
+        "kitchen 1.jpg",
+        "kitchen 2.jpg",
+        "kitchen 3.jpg",
+        "kitchen 4.jpg",
+        "kitchen 6.jpg",
+        "kitchen 7.jpg",
+        "kitchen 8.jpg",
+        "kitchen 10.jpg",
+        "kitchen 12.jpg",
+        "kitchen 13.jpg",
+        "kitchen 14.jpg",
+        "kitchen 15.jpg",
+        "kitchen 16.jpg",
+        "kitchen 17.jpg",
+        "kitchen 18.jpg",
+        "kitchen 19.jpg",
+        "kitchen 21.jpg",
+        "kitchen 23.jpg",
+        "kitchen 24.jpg"
       ]
     },
     {
@@ -153,43 +159,37 @@
       ]
     },
     {
-      "room": "Kitchen with Breakfast Nook",
+      "room": "Entrance Foyer",
       "features": [
         "Hardwood floors",
-        "All stainless-steel appliances",
-        "Tumbled marble backsplash with mosaic tile inset",
-        "Kraftmade cabinets with 'soft close' drawers",
-        "Samsung side by side refrigerator with ice and water dispenser on the door",
-        "Providing a new  dual steam/cook/convection Samsung oven as well as a new Samsung induction oven/range both self-cleaning",
-        "New NuTone hood fan with multiple speeds and dimmable lighting",
-        "A double sink as well as a bar sink both with garbage disposals",
-        "New Kitchen Aid dishwasher with self-cleaning filter",
-        "A new Kitchen Aid built-in microwave",
-        "Seating at the peninsula",
-        "Silestone counter space galore",
-        "Dimmable under-cabinet LED lighting",
-        "Sliding glass door with screen leading to a fully fenced, flagstone patio with multiple gardens"
+        "New steel front door",
+        "Closet with new swing-out doors as well as a panel with access to a directional change of airflow to accommodate heating and A/C preferences",
+        "New LED overhead fixture"
       ],
       "images": [
-        "kitchen 1.jpg",
-        "kitchen 2.jpg",
-        "kitchen 3.jpg",
-        "kitchen 4.jpg",
-        "kitchen 6.jpg",
-        "kitchen 7.jpg",
-        "kitchen 8.jpg",
-        "kitchen 10.jpg",
-        "kitchen 12.jpg",
-        "kitchen 13.jpg",
-        "kitchen 14.jpg",
-        "kitchen 15.jpg",
-        "kitchen 16.jpg",
-        "kitchen 17.jpg",
-        "kitchen 18.jpg",
-        "kitchen 19.jpg",
-        "kitchen 21.jpg",
-        "kitchen 23.jpg",
-        "kitchen 24.jpg"
+        "famous said stairs.jpg",
+        "foyer again.jpg",
+        "foyer from stairs.jpg",
+        "Hall closet foyer.jpg",
+        "hallway light down steps from master bedrm.jpg",
+        "staires up from foyer.jpg"
+      ]
+    },
+    {
+      "room": "Foyer Half Bath",
+      "features": [
+        "Hardwood floors",
+        "New vanity sink with Carrera marble counter and cabinet with dovetail jointed drawers",
+        "New brushed nickel fixtures and faucet",
+        "New large mirror above the sink",
+        "New American Standard commode with self-cleaning bowl feature",
+        "New Home NetWerx LED overhead lighting / night light / exhaust fan"
+      ],
+      "images": [
+        "foyer bath.jpg",
+        "Foyerbath 4.jpg",
+        "Foyerbath 2.jpg",
+        "Foyerbath 4.jpg"
       ]
     }
   ],
@@ -359,7 +359,7 @@
         "Overhead roof leading from garage to front door",
         "Flagstone patio with small garden leading from front door to garage"
       ],
-      "images": []
+      "images": ["view 3rd bdrm.jpg", "roof over front door.jpg"]
     },
     {
       "room": "Main Level Deck",
