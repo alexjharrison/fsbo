@@ -63,6 +63,7 @@ class Contact extends Component {
           <div className='contact-deets'>
             <h2>1638 Waters Edge Lane</h2>
             <h2>Reston, VA 20191</h2>
+            <p>$850,000</p>
             <p>Contact: Joan Harrison</p>
             <p>(571) 449-7136</p>
             <p>
