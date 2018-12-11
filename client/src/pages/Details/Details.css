@@ -1,0 +1,26 @@
+.details {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: rgb(252, 252, 252);
+}
+.inner-details {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.details img {
+  max-width: 800px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #aaa;
+}
+.details h3 {
+  margin: 40px 0;
+}
+
+.details iframe {
+  height: 1500px;
+  width: 98%;
+}

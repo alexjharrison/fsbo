@@ -189,7 +189,8 @@
         "foyer bath.jpg",
         "Foyerbath 4.jpg",
         "Foyerbath 2.jpg",
-        "Foyerbath 4.jpg"
+        "Foyerbath 4.jpg",
+        "foyer-sink.jpg"
       ]
     }
   ],
@@ -358,7 +359,7 @@
         "Overhead roof leading from garage to front door",
         "Flagstone patio with small garden leading from front door to garage"
       ],
-      "images": ["view 3rd bdrm.jpg", "roof over front door.jpg"]
+      "images": ["garage-1.jpg", "garage-2.jpg"]
     },
     {
       "room": "Main Level Deck",
