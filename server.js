@@ -18,7 +18,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api', (req, res) => {
-  console.log('api');
   res.send('api');
 });
 

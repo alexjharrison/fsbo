@@ -17,7 +17,6 @@ const ListBox = ({ value, options, onChange }) => {
                   : 'p-button-secondary'
               }
               onClick={() => {
-                console.log('click');
                 onChange(option.value);
               }}
             />

@@ -19,9 +19,9 @@ class Neighborhood extends Component {
         <iframe
           title='youtube-reston'
           src='https://www.youtube.com/embed/Qn5eHyn51nY'
-          frameborder='0'
+          frameBorder='0'
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
+          allowFullScreen
         />
 
         <hr />
@@ -52,7 +52,7 @@ class Neighborhood extends Component {
             subTitle='Shops and Dining a Few Steps Away'
             footer={<a href='http://lakeanneplaza.com'>LakeAnnePlaza.com</a>}
           >
-            <img class='card-pic' src='/lake-anne.png' alt='lake anne' />
+            <img className='card-pic' src='/lake-anne.png' alt='lake anne' />
           </Card>
           <Card
             title='Reston Town Center'

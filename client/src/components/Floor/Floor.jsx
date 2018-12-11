@@ -44,7 +44,6 @@ class Floor extends Component {
         images: photos
       });
     }
-    console.log(this.state.images);
   }
   importImages(r) {
     let images = {};
