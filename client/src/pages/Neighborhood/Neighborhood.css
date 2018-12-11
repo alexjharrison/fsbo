@@ -30,6 +30,7 @@
   text-align: center;
   width: 80%;
   margin: 20px auto;
+  max-width: 1000px;
 }
 .p-card-content {
   display: flex;
