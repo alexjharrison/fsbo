@@ -66,7 +66,6 @@ class Neighborhood extends Component {
               src='/reston_fountain.jpg'
               alt='reston town center'
             />
-            Card
           </Card>
         </div>
         <hr />

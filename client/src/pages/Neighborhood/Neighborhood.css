@@ -80,4 +80,7 @@
   .neighborhood {
     margin: 10px;
   }
+  .neighborhood a {
+    font-size: 16px;
+  }
 }
